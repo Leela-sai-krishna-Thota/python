@@ -54,5 +54,7 @@ print(l)
 #program to concatenate two lists
 l1=["m","na","i","abhi"]
 l2=["y","me","s","ram"]
-x=zip(l1,l2)
-print(list(x))
+l3=[]
+for i,j, in zip(l1,l2):
+  l3.append(i+j)
+  print(l3)
